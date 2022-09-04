@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+  width: 50%;
+  margin: 10 auto;
+  /* ortaya almak için alt üstü sıfırladım sağ solu otoladım */
+  position: relative;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: #f7f7f7;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  padding-bottom: 20px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.details-list {
+  list-style: square;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 13px;
+  padding: 7px 15px;
+  /* bunun yerine width verip text align cnter yapabilirim */
+  letter-spacing: 3px;
+  position: absolute;
+  left: -25px;
+  top: -10px;
+}
+/* iki şekilde de  ortak şeyleri tek class da yazabilirim aşağıda yazıyor */
+/* .renkler div {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+} */
+.display {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+}
+.blackk {
+  background-color: black;
+  top: 10px;
+}
+.bluee {
+  background-color: blue;
+  left: 20px;
+  top: 10px;
+}
+.redd {
+  background-color: red;
+  left: 40px;
+  top: 10px;
+}
+.orangee {
+  background-color: orange;
+  left: 60px;
+  top: 10px;
+}
+.greenn {
+  background-color: green;
+  left: 80px;
+  top: 10px;
+}
+.brownn {
+  background-color: brown;
+  left: 100px;
+  top: 10px;
+}
